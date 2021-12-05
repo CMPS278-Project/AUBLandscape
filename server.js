@@ -895,7 +895,7 @@ app.get("/FilterByCriteria", (req, res) => {
 app.post("/FilterByCriteria", (req, res) => {
     const parametersTemplate = {
         //tab1 Country
-        country: req.body["Country"], //NA
+        Country: req.body["Country"], //NA
         //tab2 Basic Info
         type: req.body["Plant-Type"],
         Light_Requirements: req.body["Light"],
@@ -1101,7 +1101,7 @@ app.get("/popular_plant_categories", (req, res) => {
                 break;
         
         case "groundCovers":
-            Plant.find({Category: "Ground Cover"})
+            Plant.find({Category: "Ground covers"})
                 .then((result) => {
                     res.render("filtered_plants_res", {
                         filterBy: "Category",
