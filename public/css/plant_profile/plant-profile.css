@@ -99,3 +99,36 @@ h4 {
     margin-left: 5px;
     width: 80%;
 }
+
+span{
+    color: #40916cff;
+}
+
+#pdfButton {
+    font-size: medium;
+    background-color: rgb(0,0,0,0);
+    border: none;
+    cursor: pointer;
+}
+
+#forPDF {
+    display: none;
+}
+
+.pdfImg {
+    display: block;
+    max-width: 300px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pdfTxt {
+    display: inline-block;
+    max-width: 400px;
+}
+#pdfImgs {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    text-align: end;
+}

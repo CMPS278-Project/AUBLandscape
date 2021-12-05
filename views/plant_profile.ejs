@@ -9,6 +9,8 @@
     <link rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="css/global styles/search-buttons.css">
     <link rel="stylesheet" href="css/plant_profile/plant-profile.css">
+    <link rel="stylesheet" type="text/css" href="css/plant_profile/print.min.css">
+    <script src="js/plant_profile/print.min.js"></script>
     <script src="js/plant_profile/plant_profile.js"></script>
 </head>
 
@@ -36,7 +38,6 @@
                     </a>
                 </div>
             </div>
-
             <div id="profile-container">
                 <h3>Plant Profile</h3>
 
@@ -185,16 +186,16 @@
 
                 <a href="https://www.google.com/search?q=<%=plant.name%>">Search Plant on Google</a>
                 <br>
-                <a href="#">Download as PDF</a>
+                <button type="button" id="pdfButton">Download as PDF</button>
             </div>
         </main>
+
+        <div id="forPDF">
+            <div id="pdfTxt"></div>
+            <div id="pdfImgs"></div>
+        </div>
 
         <%- include("./partials/footer.ejs") %>
 </body>
 
 </html>
-
-<style> 
-span{
-    color: #40916cff;
-}
