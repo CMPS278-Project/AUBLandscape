@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Plant Categories - AUB Landscape</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/popular_plant_categories/popular_plant_categories.css">
+</head>
+
+<body>
+    <%- include("./partials/header.ejs") %>
+
+        <div id="categories">
+            <a href="/popular_plant_categories?category=fragrant" class="category">
+                <img src="images/popular_plant_categories/Fragrant.png" alt="Fragrant Plant">
+                Fragrant Plants
+            </a>
+            <a href="/popular_plant_categories?category=flowering" class="category">
+                <img src="images/popular_plant_categories/Flowering.png" alt="Fragrant Plant">
+                Flowering Plants
+            </a>
+            <a href="/popular_plant_categories?category=edible" class="category">
+                <img src="images/popular_plant_categories/Edible.png" alt="Fragrant Plant">
+                Edible Plants
+            </a>
+            <a href="/popular_plant_categories?category=arid" class="category">
+                <img src="images/popular_plant_categories/Arid.png" alt="Fragrant Plant">
+                Plants For Arid Regions
+            </a>
+            <a href="/popular_plant_categories?category=shade" class="category">
+                <img src="images/popular_plant_categories/Shade.png" alt="Fragrant Plant">
+                Plants For Shade
+            </a>
+            <a href="/popular_plant_categories?category=groundCovers" class="category">
+                <img src="images/popular_plant_categories/Groundcover.png" alt="Fragrant Plant">
+                Ground Covers
+            </a>
+        </div>
+
+        <%- include("./partials/footer.ejs") %>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+colors {
+    --nyanza: #d8f3dcff;
+    --turquoise-green: #b7e4c7ff;
+    --turquoise-green-2: #95d5b2ff;
+    --ocean-green: #74c69dff;
+    --ocean-green-2: #52b788ff;
+    --illuminating-emerald: #40916cff;
+    --bottle-green: #2d6a4fff;
+    --brunswick-green: #1b4332ff;
+    --dark-jungle-green: #081c15ff;
+  }
+
+#categories {
+    display: grid;
+    height: 50vh;
+    width: 100vw;
+    grid-template-rows: repeat(2, minmax(150px, 300px));
+    grid-template-columns: repeat(3, 25%);
+    justify-content: center;
+    padding: 20px;
+}
+
+.category {
+    height: 90%;
+    width: 90%;
+    background-color: #40916cff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px black;
+}
+
+.category:hover {
+    box-shadow: inset 2px 2px #2d6a4fff;
+}
