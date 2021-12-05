@@ -26,7 +26,7 @@ The structure and the data about the profile of plants (landscape info, botanica
         - [X] Trunk
     3. [X] View the image gallery and filter the plants by type and sort the results in asc and desc order of two different properties.
     4. [X] The image gallery should allow the user to choose the number of images to show at a given moment in time. The user can then modify that number and the page should react accordingly.
-    5. [ ] Browse plants by categories: fragrant plants, flowering plants, edible plants, etc.
+    5. [X] Browse plants by categories: fragrant plants, flowering plants, edible plants, etc.
     6. [X] The search results or pages that browse plants should all have the same layout. They should show a snapshot of a plant as shown below (e.g. its main image, its name, type, flower, height, etc.).
     7. [X] A zoomed version of the plant’s image should be show automatically every time the user hovers the mouse over it. When the mouse is out, the zoomed version should disappear.
     8. [X] View a plant’s complete profile
