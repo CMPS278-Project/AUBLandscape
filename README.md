@@ -1,5 +1,8 @@
 # AUB Landscape Plant Database
 
+## Demo Video
+[Link to Video](https://drive.google.com/file/d/13gdVQWLu9Cu9zq9DjbFR3hRfJkUqm0nH/view)
+
 ## Description
 
 This project is about creating a revamped version of AUB’s landscape department’s website that is, mainly, used to display and manage profiles of plants. You may always refer to [the old website](https://landscapeplants.aub.edu.lb/) to get an idea about what each of the below mentioned specifications exactly means.
@@ -56,3 +59,42 @@ The admin should be able to:
 should contribute and the whole team is responsible to show how much effort was put
 in the project. If the size of your video does not allow it to be uploaded, then submit a
 link to it after uploading it to the cloud.
+
+## Work Split
+| Tasks                             | Ali Chehab | Jamal Al-Khatib | Marwan Bassam |
+|-----------------------------------|------------|-----------------|---------------|
+| About us Page                     |            | X               |               |
+| Admin Add new Plant Backend       |            | X               |               |
+| Admin Add new Plant Frontend      |            | X               |               |
+| Admin Delete Plant Backend        |            | X               |               |
+| Admin Delete Plant Frontend       |            | X               |               |
+| Admin Edit a Plant Backend        |            | X               |               |
+| Admin Edit a Plant Frontend       |            | X               |               |
+| Admin Messages Backend            |            | X               |               |
+| Admin Messages Frontend           |            | X               |               |
+| Database                          |            | X               |               |
+| Filter By Category Backend        |            |                 | X             |
+| Filter By Category Frontend       |            |                 | X             |
+| Filter By Criteria Backend        |            |                 | X             |
+| Filter By Criteria Frontend       |            |                 | X             |
+| Filter By Identification Backend  |            |                 | X             |
+| Filter By Identification Frontend |            |                 | X             |
+| Filter By Letter Backend          |            | X               |               |
+| Filter By Letter Frontend         | X          | X               |               |
+| Filter By Name Backend            |            | X               |               |
+| Filter By Name Frontend           |            | X               |               |
+| Get Admin Privelages Page         |            | X               |               |
+| Glossary Backend                  |            | X               |               |
+| Glossary Frontend                 |            | X               |               |
+| Header/Footer Design              |            |                 | X             |
+| Home Page Backend                 |            | X               |               |
+| Home Page Frontend                |            |                 | X             |
+| Image Gallery Backend             | X          |                 |               |
+| Image Gallery Frontend            | X          |                 |               |
+| Image Zoom Functionality          | X          |                 |               |
+| PDF Download Functionality        | X          |                 |               |
+| Plant Profile Page Backend        |            | X               |               |
+| Plant Profile Page Design         | X          |                 | X             |
+| Search On Google Functionality    |            | X               |               |
+| SpotLight Plant                   |            | X               |               |
+| Useful Links Page                 |            |                 | X             |
